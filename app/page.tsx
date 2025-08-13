@@ -936,10 +936,10 @@ export default function HomePage() {
         </div>
 
         {/* Learn Tab */}
-        <Card id="learn" className="bg-gradient-to-r from-indigo-900/50 to-purple-900/50 border-indigo-500/30">
+        <Card id="learn" className="bg-gradient-to-r from-slate-900/80 to-slate-800/80 border-slate-600/30">
           <CardHeader>
             <CardTitle className="flex items-center gap-3 text-white text-2xl">
-              <BookOpen className="w-8 h-8 text-indigo-400" />
+              <BookOpen className="w-8 h-8 text-blue-400" />
               Security Education Center
             </CardTitle>
             <p className="text-gray-300">Learn how to protect yourself from online threats</p>
@@ -951,7 +951,7 @@ export default function HomePage() {
                   <AlertTriangle className="w-8 h-8 text-red-400" />
                 </div>
                 <h4 className="text-white font-semibold mb-2">Recognize Threats</h4>
-                <p className="text-gray-400 text-sm">
+                <p className="text-gray-300 text-sm">
                   Learn to identify phishing emails, fake websites, and social engineering attacks
                 </p>
               </div>
@@ -960,7 +960,7 @@ export default function HomePage() {
                   <Lock className="w-8 h-8 text-green-400" />
                 </div>
                 <h4 className="text-white font-semibold mb-2">Best Practices</h4>
-                <p className="text-gray-400 text-sm">
+                <p className="text-gray-300 text-sm">
                   Discover security tips, password management, and safe browsing habits
                 </p>
               </div>
@@ -969,7 +969,7 @@ export default function HomePage() {
                   <Users className="w-8 h-8 text-blue-400" />
                 </div>
                 <h4 className="text-white font-semibold mb-2">Community</h4>
-                <p className="text-gray-400 text-sm">
+                <p className="text-gray-300 text-sm">
                   Join our community to share experiences and stay updated on latest threats
                 </p>
               </div>
